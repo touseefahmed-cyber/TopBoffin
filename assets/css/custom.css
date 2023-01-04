@@ -172,7 +172,7 @@ body{
     float: left;
     width: 30.33%;
     position: relative;
-    margin: 0 30px 54px;
+    margin: 0 2.25% 54px;
 }
 .front-con{
     width: 407.13px;
@@ -180,22 +180,22 @@ body{
     margin-bottom: 25px;
 }
 .services-item ul li:first-child .front-con{
-    background: url(../images/services-bg1.png);
+    background: url(../images/services-bg1.png) no-repeat center;
 }
 .services-item ul li:nth-child(2) .front-con {
-    background: url(../images/services-bg2.png);
+    background: url(../images/services-bg2.png) no-repeat center;
 }
 .services-item ul li:nth-child(3) .front-con {
-    background: url(../images/services-bg3.png);
+    background: url(../images/services-bg3.png) no-repeat center;
 }
 .services-item ul li:nth-child(4) .front-con {
-    background: url(../images/services-bg4.png);
+    background: url(../images/services-bg4.png) no-repeat center;
 }
 .services-item ul li:nth-child(5) .front-con {
-    background: url(../images/services-bg5.png);
+    background: url(../images/services-bg5.png) no-repeat center;
 }
 .services-item ul li:last-child .front-con {
-    background: url(../images/services-bg6.png);
+    background: url(../images/services-bg6.png) no-repeat center;
 }
 
 .back-con{
