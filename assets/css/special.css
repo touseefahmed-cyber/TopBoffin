@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'BEBAS';
+    src: url('../fonts/BEBAS.eot');
+    src: url('../fonts/BEBAS.eot') format('embedded-opentype'),
+         url('../fonts/BEBAS.woff2') format('woff2'),
+         url('../fonts/BEBAS.woff') format('woff'),
+         url('../fonts/BEBAS.ttf') format('truetype'),
+         url('../fonts/BEBAS.svg#BEBAS') format('svg');
+}
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold.eot');
+    src: url('../fonts/NexaBold.eot') format('embedded-opentype'),
+         url('../fonts/NexaBold.woff2') format('woff2'),
+         url('../fonts/NexaBold.woff') format('woff'),
+         url('../fonts/NexaBold.ttf') format('truetype'),
+         url('../fonts/NexaBold.svg#NexaBold') format('svg');
+}
+@font-face {
+    font-family: 'NexaRegular';
+    src: url('../fonts/NexaRegular.eot');
+    src: url('../fonts/NexaRegular.eot') format('embedded-opentype'),
+         url('../fonts/NexaRegular.woff2') format('woff2'),
+         url('../fonts/NexaRegular.woff') format('woff'),
+         url('../fonts/NexaRegular.ttf') format('truetype'),
+         url('../fonts/NexaRegular.svg#NexaRegular') format('svg');
+}
+@font-face {
+    font-family: 'NexaBookItalic';
+    src: url('../fonts/NexaBookItalic.eot');
+    src: url('../fonts/NexaBookItalic.eot') format('embedded-opentype'),
+         url('../fonts/NexaBookItalic.woff2') format('woff2'),
+         url('../fonts/NexaBookItalic.woff') format('woff'),
+         url('../fonts/NexaBookItalic.ttf') format('truetype'),
+         url('../fonts/NexaBookItalic.svg#NexaBookItalic') format('svg');
+}
+
+
+.wrapper{
+    max-width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 54px;
+    line-height: 98px;
+    letter-spacing: 0.11em;     
+}
+h2{
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.145em;
+}
+h3{
+    font-size: 40px;
+    line-height: 53px;
+}
+h4{
+    font-size: 30px;
+    line-height: 30px;
+}
+.color-E4E4E4{
+    color: #E4E4E4;
+}
+.color-C84CFF{
+    color: #C84CFF;
+}
+.bg-C84CFF{
+    background-color: #C84CFF;
+}
+.bg-C74CFE{
+    background-color: #C74CFE;
+}
+.bg-F3BA51{
+    background: #F3BA51;
+}
+.bg-43C9B5{
+    background: #43C9B5;
+}
+.bg-2F67BB{
+    background: #2F67BB;
+}
+.bg-FCFCFC{
+    background-color: #FCFCFC;
+}
+.bg-1B1B1B{
+    background-color: #1B1B1B;
+}
+
+.color-A3A3A3{
+    color: #A3A3A3;
+}
+.bebas-font{
+    font-family: 'BEBAS';
+}
+.NexaBold-font{
+    font-family: 'NexaBold';
+}
+.nexaitalic-font{
+    font-family: 'NexaBookItalic';
+}
+button:focus{
+    outline: none;
+}
