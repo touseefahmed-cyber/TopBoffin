@@ -178,9 +178,6 @@ body{
     0% { transform: translateY(0); }
     100% { transform: translateY(10px); }
 }
-.work-con{
-    overflow: unset;
-}
 .banner-text{
     width: 71.17%;
     float: left;
