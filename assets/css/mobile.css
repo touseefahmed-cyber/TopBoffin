@@ -1,4 +1,10 @@
 @media (max-width: 1600px){
+    .generic-box-img figure::after {
+        right: -26px;
+      }
+      .wrok-box .row:nth-child(even) .generic-box-img figure::after {
+        left: -26px;
+      }
     .owl-item .item .tastimonials-box p br{
         display: none;
     }

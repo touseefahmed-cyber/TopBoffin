@@ -179,7 +179,7 @@ body{
     100% { transform: translateY(10px); }
 }
 .work-con{
-    overflow: hidden;
+    overflow: unset;
 }
 .banner-text{
     width: 71.17%;
