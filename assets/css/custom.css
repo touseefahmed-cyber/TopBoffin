@@ -3,6 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+a:hover {
+    outline: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: underline;
+}
 body{
     font-size: 22px;
     color: #C4C4C4;
@@ -10,19 +19,54 @@ body{
     background: #090909;
     font-family: 'NexaRegular';
 }
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .active>.nav-link{
+.header-con .navbar-light .navbar-nav .nav-link,
+.header-con .navbar-light .navbar-nav .active>.nav-link{
     font-size: 18px;
     color: #A3A3A3;
     line-height: 24px;
     font-family: 'BEBAS';
 }
-.nav-item{
+.header-con .navbar-light .navbar-nav .nav-link:hover{
+    color: #C84CFF;
+}
+.header-con .nav-item{
     padding-left: 13px;
     padding-right: 13px;
 }
+.header-con .nav-item a{
+    position: relative;
+}
+.header-con .nav-item a:after{
+    left:0;
+    content: "";
+    bottom: -10px;
+    height: 2.2px;
+    width: 25.61px;
+    position: absolute;
+    background: #A3A3A3;
+}
+.header-con .nav-item a::before{
+    left:0;
+    content: "";
+    bottom: -10px;
+    height: 2.2px;
+    width: 0;
+    position: absolute;
+    background: #C84CFF;
+    transition: all 0.3s ease-in-out;
+}
+.header-con .nav-item a:hover::before{
+    z-index: 1;
+    width:26px;
+}
 .banner-text h1{
     margin-bottom: 46px;
+}
+.see-btn a:hover{
+    color: #fff;
+}
+.see-btn a:hover img {
+    padding-right: 4px;
 }
 .hire-btn{
     margin-left: 16px;
@@ -37,6 +81,17 @@ body{
     background: #C84CFF;
     text-decoration: none;
     padding: 8px 22px 9px 23px;
+    position: relative;
+    transition: all 0.6s ease-in-out;
+}
+.hire-btn a:hover{
+    color: #C84CFF;
+    background: none;
+    transform: translateY(-8px);
+    box-shadow: inset 0 0 0px 2px #c84cff;
+}
+.hire-btn a:hover::after {
+    width: 100%;
 }
 .header-con{
     padding-top: 60px;
@@ -47,9 +102,11 @@ body{
     color: #C84CFF;
     line-height: 19px;
     text-decoration: none;
+
 }
 .see-btn a img{
     padding-right: 11px;
+    transition: all 0.6s ease-in-out;
 }
 .banner-con{
     padding-top: 117px;
@@ -61,28 +118,68 @@ body{
 .banner-img figure img{
     position: relative;
 }
+
 .banner-img figure:first-child img{
     left: 0;
+    animation: mover1 1s infinite alternate;
+    -webkit-animation: mover1 1s infinite alternate;
+}
+@keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 .banner-img figure:nth-child(2) img {
     left: 5px;
     top: -152px;
+    animation: mover2 1.5s infinite alternate;
+    -webkit-animation: mover2 1.5s infinite alternate;
+}
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 .banner-img figure:nth-child(3) img {
     left: 16px;
     top: 30px;
+    animation: mover3 2s infinite alternate;
+    -webkit-animation: mover3 2s infinite alternate;
+}
+@keyframes mover3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 .banner-img figure:nth-child(4) img {
     left: 136px;
     top: -187px;
+    animation: mover4 2.5s infinite alternate;
+    -webkit-animation: mover4 2.5s infinite alternate;
+}
+@keyframes mover4 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(15px); }
 }
 .banner-img figure:nth-child(5) img{
     left: -125px;
     top: -55px;
+    animation: mover5 3s infinite alternate;
+    -webkit-animation: mover5 3s infinite alternate;
+}
+@keyframes mover5 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
 }
 .banner-img figure:last-child img{
     left: 16px;
     top: -51px;
+    animation: mover6 3.5s infinite alternate;
+    -webkit-animation: mover6 3.5s infinite alternate;
+}
+@keyframes mover6 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
+}
+.work-con wrapper{
+    overflow: hidden;
 }
 .banner-text{
     width: 71.17%;
@@ -97,6 +194,17 @@ body{
     line-height: 18px;
     margin-bottom: 17px;
 }
+.tastimonials-con .generic-title span::after{
+    bottom: -11px;
+    left: 50%;
+    content: "";
+    width: 51.54px;
+    height: 2px;
+    background: #C84CFF;
+    position: absolute;
+    transform: translatex(-50%);
+}
+
 .tastimonials-con .generic-title h3 {
     margin-bottom: 158px;
 }
@@ -108,15 +216,27 @@ body{
     line-height: 35px;
     color: #000;
 }
-.auther-con span{
+.owl-item.active.center .auther-con span{
     font-size: 27.6127px;
     line-height: 27px;
     display: block;
     margin-bottom: 10px;
 }
-.auther-con small{
+.owl-item .auther-con span{
+    font-size: 18.2504px;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+.owl-item.active.center .auther-con small{
     font-size: 20.7095px;
     line-height: 20px;
+}
+.owl-item .auther-con small{
+    font-size: 14.6003px;
+    line-height: 18px;
+    opacity: 0.6;
 }
 .owl-carousel .owl-item img {
     width: auto;
@@ -158,13 +278,23 @@ body{
     overflow: inherit;
     overflow-x: clip !important;
 }
-.owl-item .item .auther-con{
+.owl-item.active.center .auther-con{
     width: 228.68px;
     height: 228.68px;
     background: #1B1B1B;
     border-radius: 50%;
     position: absolute;
     bottom: -37px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.owl-item .auther-con{
+    width: 181.37px;
+    height: 181.37px;
+    background: #1B1B1B;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -98px;
     left: 50%;
     transform: translatex(-50%);
 }
@@ -240,8 +370,9 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.flip-box {  
+.flip-box {
     perspective: 1000px;
+    width: fit-content;
   }
   
   .flip-box-inner {
@@ -273,9 +404,50 @@ body{
     font-size: 180px;
     line-height: 180px;
     color: #fff;
+    position: relative;
     -webkit-text-stroke: 0.5px #FFF;;
     -webkit-text-fill-color: transparent;
 }
+.work-title span::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    overflow: hidden;
+    width: 0%;
+    white-space: pre;
+    content: attr(data-text);
+    -webkit-text-stroke: rgba(255, 255, 255, 0);
+    will-change: width;
+    -webkit-animation: grow 4s cubic-bezier(0.86, 0, 0.07, 1) 2s infinite alternate both;
+    animation: grow 4s cubic-bezier(0.86, 0, 0.07, 1) 2s infinite alternate both;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85) 0%, rgba(254, 254, 254, 0.65) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes grow {
+    0%{
+      width: 0%;
+    }
+    10%{
+        width: 10%;
+    }
+    20%{
+        width: 20%;
+    }
+    30%{
+        width: 40%;
+    }
+    50% {
+      width: 70%;
+    }
+    70% {
+        width: 100%;
+    }
+    100%{
+        width: 0;
+    }
+  }
 .main-services-sec{
     margin-bottom: 166px
 }
@@ -288,6 +460,13 @@ body{
     border-radius: 50%;
     position: absolute;
     left: 0;
+}
+.request-title figure img{
+    transition: all 0.3s ease-in-out;
+}
+
+.request-title figure:hover img{
+    transform: translatey(6px);
 }
 .request-title h3{
     margin-left: 146px;
@@ -306,6 +485,8 @@ body{
     position: absolute;
     background: #C74CFE;
     z-index: -1;
+    animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
 }
 .wrok-box .row:nth-child(2) .generic-box-img figure::after{
     left: -35px;
@@ -359,8 +540,16 @@ body{
 .footer-heading button{
     font-size: 30px;
     border-radius: 11px;
+    cursor: pointer;
     padding: 13px 39px 14px;
     background-color: #000000;
+    transition: all 0.6s ease-in-out;
+}
+.footer-heading button:hover{
+    background: none;
+    color: #000 !important;
+    transform: translateY(-8px);
+    box-shadow: inset 0 0 0px 2px #000;
 }
 .main-footer-sec{
     padding-top: 58px;
@@ -379,9 +568,10 @@ body{
     line-height: 20px;
     margin-bottom: 15px;
     letter-spacing: 0.115em;
+    position: relative;
 }
 .footer-info a:hover{
-    color: #000000;
+    color: #000;
     text-decoration: none;
 }
 .footer-logo-sec{
@@ -399,8 +589,32 @@ body{
 }
 .footer-job button{
     font-size: 22px;
+    cursor: pointer;
     border-radius: 6px;
     padding: 8px 18px 6px;
+    transition: all 0.6s ease-in-out;
+}
+.footer-job button:hover{
+    background: none;
+    color: #C84CFF !important;
+    transform: translateY(-8px);
+    box-shadow: inset 0 0 0px 2px #C84CFF;
+}
+.footer-info a:hover{
+    color: #C84CFF;
+}
+.footer-info a::before {
+    left: 0;
+    content: "";
+    bottom: -3px;
+    height: 1px;
+    width: 0;
+    position: absolute;
+    background: #C84CFF;
+    transition: all 0.3s ease-in-out;
+}
+.footer-info a:hover::before{
+    width: 70%;
 }
 .social-icons{
     margin-bottom: 6px;
@@ -418,6 +632,10 @@ body{
     height: 32px;
     border: 2px solid #000000;
     border-radius: 100%;
+    transition: all 0.6s ease-in-out;
+}
+.social-icons ul li a:hover{
+    transform: translateY(-8px);
 }
 .banner-text h1:after{
     z-index: -1;
@@ -429,6 +647,12 @@ body{
     position: absolute;
     background: #C84CFF;
     border-radius: 33.8826px;
+    animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 .social-icons ul li a:hover{
     text-decoration: none;
@@ -457,11 +681,25 @@ body{
     transform: rotate(4deg);
     border: 2px solid #C84CFF;
 }
-.bottom-sec-inner p{
+.copyright span{
     margin-top: 9px;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.115em;
+}
+.copyright a{
+    font-size: 16px;
+    line-height: 16px;
+    color: #C84CFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.115em;
+}
+.copyright a:nth-child(2){
+    border-right: 1px solid #C84CFF;
+    padding-right: 5px;
+    margin-right: 5px;
 }
 .finance-banner{
     padding-top: 55px;
@@ -530,16 +768,25 @@ body{
 .about-service-item{
     width: 32.3%;
     border-radius: 25px;
-    padding: 60px 40px 30px 40px;
+    padding: 60px 42px 48px 42px;
 }
 .about-service-item figure{
-    margin-bottom: 26px;
+    margin-bottom: 43px;
 }
 .about-service-item h4{
-    margin-bottom: 15px;
+    font-size: 22px;
+    margin-bottom: 19px;
     line-height: 36px;
 }
 .about-service-item p{
     font-size: 22px;
     line-height: 26px;
+}
+.footer-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+.generic-box-img figure{
+    position: relative;
 }
