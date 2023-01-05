@@ -181,14 +181,23 @@
     .banner-img figure img {
         width: 100px;
     }
-    .banner-img figure:nth-child(4) img {
-        left: 114px;
+    .banner-img figure:first-child img {
+        left: 6px;
     }
     .banner-img figure:nth-child(3) img {
-        left: 16px;
+        left: 214px;
+        top: -400px;
+    }
+    .banner-con {
+        padding-bottom: 0;
+    }
+    .banner-img figure:last-child img {
+        top: -399px;
+        left: 124px;
     }
     .banner-img figure:nth-child(5) img {
-        left: -103px;
+        left: 8px;
+        top: -338px;
     }
     h3 {
         font-size: 34px;
@@ -335,6 +344,9 @@
         padding-top: 28px;
         padding-bottom: 28px;
     }
+    .banner-img {
+        width: 301px;
+    }
 }
 @media (max-width: 991px) {
     .bottom-sec-inner h5 span {
@@ -403,6 +415,7 @@
     .hire-btn {
         margin-left: 13px;
         padding-bottom: 20px;
+        margin-top: 13px;
     }
     .navbar-nav .nav-item:first-child{
         padding-top: 20px;
