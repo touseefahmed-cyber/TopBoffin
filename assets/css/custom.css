@@ -13,9 +13,9 @@ a:hover {
     text-decoration: underline;
 }
 body{
-    font-size: 22px;
+    font-size: 20px;
     color: #C4C4C4;
-    line-height: 34px;
+    line-height: 35 px;
     background: #090909;
     font-family: 'NexaRegular';
 }
@@ -60,7 +60,7 @@ body{
     width:26px;
 }
 .banner-text h1{
-    margin-bottom: 46px;
+    margin-bottom: 41px;
 }
 .see-btn a:hover{
     color: #fff;
@@ -105,20 +105,20 @@ body{
 
 }
 .see-btn a img{
-    padding-right: 11px;
+    padding-right: 10px;
     transition: all 0.6s ease-in-out;
 }
 .banner-con{
     padding-top: 117px;
     padding-bottom: 110px;
 }
-.banner-text p{
-    margin-bottom: 26px;
-}
 .banner-img figure img{
     position: relative;
 }
-
+.banner-text p{
+    line-height: 31px;
+    margin-bottom: 19px;
+}
 .banner-img figure:first-child img{
     left: 0;
     animation: mover1 1s infinite alternate;
@@ -179,12 +179,13 @@ body{
     100% { transform: translateY(10px); }
 }
 .banner-text{
-    width: 71.17%;
     float: left;
+    width: 100%;
 }
-.banner-img{
-    width: 28.83%;
-    float: left;
+.banner-img {
+    width: 319.25px;
+    height: 642.91px;
+    position: absolute;
 }
 .tastimonials-con .generic-title span{
     font-size: 18px;
@@ -638,12 +639,12 @@ body{
     z-index: -1;
     content: "";
     right: -22px;
-    bottom: -14px;
-    width: 243.61px;
-    height: 67.77px;
+    bottom: -8px;
+    width: 212.16px;
+    height: 59.02px;
     position: absolute;
     background: #C84CFF;
-    border-radius: 33.8826px;
+    border-radius: 29.5081px;
     animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
 }
