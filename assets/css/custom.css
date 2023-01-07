@@ -936,9 +936,6 @@ body{
 .domain-con{
     padding-bottom: 50px;
 }
-.about-services{
-    padding-bottom: 118px;
-}
 .srevices-title h2{
     font-size: 46px;
     letter-spacing: 0.08em;
@@ -978,7 +975,6 @@ body{
     width: 60%;
 }
 .sol-box-img figure{
-    padding-right: 32px;
     float: right;
 }
 .sol-box-img:after{
@@ -1209,15 +1205,9 @@ body{
     line-height: 33px;
 }
 .about-service-boxes div:nth-child(2){
-    padding-bottom: 80px;
-    padding-top: 79px;
     margin-top: 105px;
     margin-left: 18px;
     margin-right: 18px;
-}
-.about-service-boxes div:last-child{
-    padding-top: 79px;
-    padding-bottom: 80px;
 }
 .our-team-sec{
     padding-top: 75px;

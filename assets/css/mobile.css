@@ -1,4 +1,37 @@
 @media (max-width: 1600px){
+    .developers-con {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    .packages-title p {
+        margin-bottom: 100px;
+    }
+    .packages-box-item figure {
+        margin-bottom: 90px;
+    }
+    .packages-box-item {
+        padding: 60px 21px 40px;
+    }
+    .packages-con {
+        padding-bottom: 100px;
+    }
+    .domain-box-item {
+        padding: 58px 10px 18px;
+    }
+    .domain-box-item h5 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 26px;
+    }
+    .domain-box {
+        margin-bottom: 60px;
+    }
+    .solution--boxes {
+        margin-bottom: 60px;
+    }
+    .about-service-item {
+        padding: 46px 20px 70px;
+    }
     .generic-box-img figure::after {
         right: -26px;
       }
@@ -40,6 +73,50 @@
     .wrapper{
         padding-left: 4%;
         padding-right: 4%;
+    }
+    .solution-heading {
+        margin-bottom: 38px;
+    }
+    .developers-con {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .solution--boxes {
+        margin-bottom: 50px;
+    }
+    .packages-box-item {
+        width: 29.6%;
+        padding: 80px 33px 50px;
+    }
+    .packages-box-item figure {
+        margin-bottom: 70px;
+    }
+    .packages-box-item h4 {
+        margin-bottom: 34px;
+    }
+    .packages-box-item span {
+        margin-bottom: 34px;
+    }
+    .packages-con {
+        padding-bottom: 90px;
+    }
+    .domain-box-item {
+        width: 29.6%;
+    }
+    .domain-box-item {
+        padding: 48px 10px 18px;
+    }
+    .about-service-item figure {
+        margin-bottom: 28px;
+    }
+    .about-service-item h4 {
+        margin-bottom: 12px;
+    }
+    .about-service-item {
+        padding: 40px 20px 50px;
+    }
+    .packages-title p {
+        margin-bottom: 80px;
     }
     .services-item ul {
         margin-bottom: 50px;
@@ -175,8 +252,19 @@
         width: 135px;
         height: 33px;
     }
-    .banner-text p br{
+    .banner-text p br,
+    .sub-banner-text p br{
         display: none;
+    }
+    .sub-inner-banner::after {
+        left: 50px;
+    }
+    .sub-banner-text p {
+        padding-right: 34px;
+    }
+    .sub-banner-text h1 {
+        line-height: 56px;
+        margin-bottom: 10px;
     }
     .banner-text p {
         margin-bottom: 22px;
@@ -382,18 +470,133 @@
         margin-bottom: 25px;
     }
     .packages-title p {
-        margin-bottom: 70px;
+        margin-bottom: 60px;
     }
-    .packages-con{
-        padding-bottom: 100px;
+    .packages-con {
+        padding-bottom: 70px;
     }
     .srevices-title h2 {
         font-size: 42px;
         margin-bottom: 75px;
     }
+    .solution-heading h2 {
+        font-size: 36px;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+    .solution-heading {
+        margin-bottom: 30px;
+    }
+    .sol-box-img:after {
+        width: 340px;
+    }
+    .sol-box-text p br{
+        display: none;
+    }
+    .sol-sec-inner div:nth-child(even) .sol-box-img:after {
+        right: 16px;
+    }
+    .solution--boxes {
+        margin-bottom: 40px;
+    }
+    .packages-box-item {
+        width: 32%;
+        padding: 45px 20px 45px;
+    }
+    .packages-title p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .packages-title p br{
+        display: none;
+    }
+    .domain-title h2 {
+        font-size: 38px;
+        margin-bottom: 42px;
+    }
+    domain-box-item p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .domain-box-item h5 {
+        font-size: 22px;
+        line-height: 31px;
+        margin-bottom: 18px;
+    }
+    .domain-box-item figure {
+        margin-bottom: 15px;
+    }
+    .srevices-title h2 {
+        font-size: 42px;
+        margin-bottom: 55px;
+        line-height: 50px;
+    }
+    .developers-con {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .packages-box-item figure {
+        margin-bottom: 40px;
+    }
+    .packages-box-item figure img{
+        width: 130px;
+    }
+    .packages-box-item h4 {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+    .packages-box-item span{
+        margin-bottom: 22px;
+    }
+    .price-con {
+        padding: 7px 13px;
+        display: inline-block;
+    }
+    .domain-box-item {
+        padding: 34px 10px;
+    }
+    .srevices-title h2 {
+        font-size: 36px;
+        margin-bottom: 46px;
+    }
+    .about-service-item p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .about-service-item {
+        padding: 48px 15px;
+    }
+    .sol-box-img figure{
+        padding-right: 0;
+    }
+    .about-service-item figure {
+        margin-bottom: 14px;
+    }
+    .about-services {
+        padding-bottom: 60px;
+    }
+    .domain-box {
+        margin-bottom: 50px;
+    }
+    .sol-box-text h4 {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 14px;
+    }
+    .sol-box-text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
     /**/
 }
 @media (max-width: 991px) {
+    .header-con {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
     .services-title h2::after {
         width: 186px;
     }
@@ -665,57 +868,17 @@
         left: -13px;
         bottom: -16px;
     }
-    /**/
-    .packages-title p br , .sub-banner-text p br{
+    .sub-banner-text p br{
         display: none;
     }
     .sub-banner-text h1 {
-        line-height: 60px;
+        line-height: 50px;
         margin-bottom: 10px;
-    }
-    .packages-box-item {
-        width: 32%;
-        padding: 45px 20px 45px;
-    }
-    .packages-title p {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .packages-title h2 {
-        font-size: 38px;
-        margin-bottom: 15px;
-    }
-    .developers-con {
-        padding-top: 55px;
-        padding-bottom: 80px;
-    }
-    .domain-title h2 {
-        font-size: 38px;
-        margin-bottom: 50px;
     }
     .domain-box-item {
         width: 31%;
         margin: 0 1%;
     }
-    .srevices-title h2 {
-        font-size: 38px;
-        margin-bottom: 55px;
-    }
-    .about-service-boxes div:nth-child(2) {
-        padding-bottom: 50px;
-        padding-top: 50px;
-        margin-top: 80px;
-    }
-    .about-service-item {
-        width: 32%;
-        border-radius: 25px;
-        padding: 40px 20px 52px 20px;
-    }
-    .about-service-item p {
-        font-size: 18px;
-        line-height: 26px;
-    }
-    /**/
     .news-letter {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -734,7 +897,167 @@
     .copyright a {
         font-size: 14px;
     }
-
+    .about-service-item h4 {
+        margin-bottom: 14px;
+        line-height: 20px;
+    }
+    .sub-banner-text p{
+        padding-right: 35px;
+    }
+    .sub-inner-banner::after{
+        width: 200px;
+        height: 267px;
+        background-size: contain;
+        left: 15px;
+    }
+    .sub-banner {
+        height: 300px;
+    }
+    .sub-banner-text{
+        width: 63%;
+    }
+    .sub-banner-text p{
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .packages-title h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .packages-title p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .packages-box-item figure img {
+        width: 100px;
+    }
+    .packages-box-item figure {
+        margin-bottom: 30px;
+    }
+    .packages-box-item h4 {
+        line-height: 22px;
+        font-size: 22px;
+    }
+    .packages-box-item span {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .packages-box-item {
+        width: 31%;
+    }
+    .packages-box-item {
+        padding: 34px 10px;
+    }
+    .price-con small {
+        font-size: 16px;
+    }
+    .pakeg-box-3{
+        font-size: 16px;
+    }
+    .price-con {
+        padding: 6px 8px;
+        border-radius: 11px;
+    }
+    .domain-title h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .domain-box {
+        margin-bottom: 40px;
+    }
+    .domain-box-item figure img{
+        width: 67px;
+    }
+    .domain-box-item figure {
+        margin-bottom: 10px;
+    }
+    .domain-box-item h5 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .domain-box-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .domain-box-item {
+        padding: 30px 10px;
+    }
+    .about-service-boxes div:nth-child(2) {
+        margin-top: 55px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .about-service-item {
+        padding: 25px 10px 25px 10px;
+    }
+    .about-service-item h4 {
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+    .about-service-item figure {
+        margin-bottom: 10px;
+    }
+    .about-service-item p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .solution-heading h2 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .solution-heading p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .solution-heading {
+        margin-bottom: 26px;
+    }
+    .sol-box-text h4 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .sol-box-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sol-box-img figure img{
+        width: 120px;
+    }
+    .sol-box-img:after{
+        width: 240px;
+    }
+    .srevices-title h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 26px;
+    }
+    .about-services {
+        padding-bottom: 50px;
+    }
+    .domain-con {
+        padding-bottom: 40px;
+    }
+    .packages-con {
+        padding-bottom: 40px;
+    }
+    .developers-con {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .about-service-item figure img{
+        width: 90px;
+    }
+    .solution--boxes {
+        margin-bottom: 30px;
+    }
+    .sol-box-text{
+        padding-top: 30px;
+    }
 }
 @media (max-width: 767px){
     .bottom-sec-inner h5::after {
@@ -950,7 +1273,95 @@
     .footer-job {
         padding-top: 4px;
     }
-    
+    .sub-inner-banner::after {
+        width: 170px;
+        height: 228px;
+        left: 10px;
+    }
+    .sub-inner-banner::after{
+        display: none;
+    }
+    .sub-banner-text{
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .sub-banner {
+        height: 250px;
+    }
+    .sub-banner-text p {
+        line-height: 22px;
+        padding-right: 0;
+    }
+    .sub-banner-text h1 {
+        line-height: 40px;
+    }
+    .developers-con {
+        padding-bottom: 34px;
+    }
+    .packages-title h2 , .solution-heading h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .packages-title p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .packages-box-item figure {
+        margin-bottom: 24px;
+    }
+    .packages-box-item , .domain-box-item , .about-service-item{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .packages-box-item h4 {
+        margin-bottom: 18px;
+    }
+    .domain-box-item figure {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+    .about-service-boxes div:nth-child(2){
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .domain-title h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .srevices-title h2 {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 28px;
+    }
+    .solution-heading p {
+        font-size: 18px;
+    }
+    .sol-box-img:after{
+        display: none;
+    }
+    .solution--boxes{
+        flex-direction: column-reverse;
+    }
+    .sol-box-text , .sol-box-img{
+        width: 100%;
+        text-align: center;
+    }
+    .sol-box-img{
+        display: flex;
+        justify-content: center;
+    }
+    .domain-box {
+        margin-bottom: 35px;
+    }
+    .domain-con {
+        padding-bottom: 35px;
+    }
+    .sol-box-img figure img {
+        width: 100px;
+    }
 }
 @media (max-width: 575px){
     .wrapper2 {
@@ -1141,5 +1552,42 @@
     }
     .banner-con {
         padding-bottom: 60px;
+    }
+    .sub-banner-text h1{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .sub-banner-text p{
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .sub-banner-text{
+        padding: 0 10px;
+    }
+    .packages-title h2, .solution-heading h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .packages-con {
+        padding-bottom: 20px;
+    }
+    .sub-banner {
+        height: 220px;
+    }
+    .developers-con {
+        padding-bottom: 30px;
+    }
+    .packages-title p {
+        margin-bottom: 24px;
+    }
+    .srevices-title h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .sol-box-img figure img {
+        width: 90px;
+    }
+    .domain-title h2 {
+        font-size: 24px;
     }
 }
