@@ -75,6 +75,15 @@ h4{
 .color-D35F46{
     color: #D35F46;
 }
+.color-25694D{
+    color: #25694D;
+}
+.color-703773{
+    color: #703773;
+}
+.color-3FCDB8{
+    color: #3FCDB8;
+}
 .bg-C84CFF{
     background-color: #C84CFF;
 }
@@ -107,6 +116,24 @@ h4{
 }
 .border-EB9F2D{
     border: 1.65354px solid #EB9F2D;
+}
+.bg-25694D{
+    background-color: #25694D;
+}
+.bg-3FCDB8{
+    background: #3FCDB8;
+}
+.bg-703773{
+    background: #703773;
+}
+.border1-703773{
+    border: 1px solid #703773;
+}
+.border1-3FCDB8{
+    border: 1px solid #3FCDB8;
+}
+.border1{
+    border: 1px solid #25694D;
 }
 .color-A3A3A3{
     color: #A3A3A3;
