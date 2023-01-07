@@ -76,9 +76,6 @@
     .owl-item.active.center .item .tastimonials-box {
         padding: 78px 42px 70px;
     }
-    .tastimonials-box > figure {
-        margin-bottom: 28px;
-    }
     .tastimonials-con {
         padding-bottom: 140px;
     }
@@ -196,9 +193,6 @@
     }
     .owl-carousel .owl-item img {
         width: 85px;
-    }
-    .tastimonials-box > figure {
-        margin-bottom: 22px;
     }
     .owl-item.active.center .auther-con span {
         font-size: 24px;
@@ -488,9 +482,6 @@
     .owl-carousel .owl-item img {
         width: 66px;
     }
-    .tastimonials-box > figure {
-        margin-bottom: 20px;
-    }
     .owl-item.active.center .item .tastimonials-box {
         padding: 38px 18px 60px;
     }
@@ -761,8 +752,8 @@
     .footer-job button {
         font-size: 16px;
     }
-    .footer-logo-sec {
-        margin-bottom: 20px;
+    .footer-logo-sec figure{
+        display: none;
     }
     .social-icons ul li {
         padding-left: 2px;
@@ -926,8 +917,8 @@
         line-height: 39px;
     }
     h2 {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
     }
     h3 {
         font-size: 24px;
@@ -944,11 +935,25 @@
         margin-bottom: 40px;
     }
     .owl-carousel .owl-item img {
-        width: 60px;
+        width: 46.8px;
+        height: 35.9px;
     }
-    
+    .tastimonials-con .generic-title {
+        margin-bottom: 58px;
+    }
+    .owl-item.active.center .tastimonials-box p,
+    .owl-item .tastimonials-box p{
+        font-size: 16px;
+        line-height: 20px;
+    }
     .tastimonials-box > figure {
-        margin-bottom: 12px;
+        top: -18px;
+    }
+    .owl-item.active.center .item .tastimonials-box {
+        border-radius: 5.49104px;
+    }
+    .owl-item .item .tastimonials-box {
+        padding: 34px 26px 56px;
     }
     .tastimonials-con {
         padding-bottom: 50px;
@@ -957,15 +962,12 @@
         width: 100%;
         margin: 0 0 26px;
     }
-    .work-title span {
-        font-size: 24px;
-        line-height: 24px;
-      }
     .work-title {
+        padding: 0 3%;
         margin-bottom: 40px;
     }
     .generic-box-img img {
-        width: 300px;
+        width: 100%;
     }
     .generic-box-img figure::after {
         width: 200px;
@@ -987,11 +989,14 @@
         font-size: 18px;
         line-height: 26px;
     }
+    .flip-box-front .front-con{
+        display: none !important;
+    }
     .generic-box-img figure::after {
         bottom: -9px;
     }
     .work-con {
-        margin-bottom: 50px;
+        margin-bottom: 93px;
     }
     .footer-heading div h2 {
         margin-bottom: 2px;
@@ -1001,8 +1006,8 @@
         padding: 3px 24px 6px;
     }
     .main-footer-sec {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
     .footer-info h4 {
         font-size: 36px;
@@ -1020,17 +1025,17 @@
     }
     .bottom-sec-inner h5 {
         font-size: 20px;
+        margin-bottom: 9px;
     }
     .bottom-sec-inner h5 span {
         margin-left: 10px;
     }
     .bottom-sec-inner h5::after {
+        left: 0;
         bottom: 12px;
         width: 172px;
-        left: 48px;
     }
     .services-item ul{
-        width: 262px !important;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1066,5 +1071,131 @@
     }
     .banner-con {
         padding-bottom: 60px;
+    }
+    .owl-item.active.center .auther-con,
+    .owl-item .auther-con {
+        bottom: -46px;
+        width: 98.36px;
+        height: 98.36px;
+    }
+    .owl-item.active.center .auther-con span,
+    .owl-item .auther-con span{
+        font-size: 14px;
+        line-height: 9px;
+        margin-bottom: 4px;
+    }
+    .owl-item.active.center .auther-con small,
+    .owl-item .auther-con small{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .services-title h2 {
+        margin-bottom: 18px;
+    }
+    .services-title h2::after {
+        bottom: -6px;
+        width: 140px;
+        height: 1.07px;
+    }
+    .services-title p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .services-title{
+        margin-bottom: 26px;
+    }
+    .flip-box-back,.flip-box:hover .flip-box-inner {
+        transform: none;
+    }
+    .flip-box-front, .flip-box-back {
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+    .back-con {
+        background: transparent;
+    }
+    .front-con figure{
+        display: none;
+    }
+    .services-item ul li h3,
+    .work-title span,
+    .work-title h2 br{
+        display: none !important;
+    }
+    .work-title h2 {
+        padding-right: 0;
+    }
+    .work-con .wrapper2 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .request-title figure {
+        width: 40px;
+        height: 40px;
+    }
+    .request-title figure img {
+        width: 24px;
+    }
+    .request-title figure {
+        left: 0;
+        top: -4px;
+    }
+    .request-title h3 {
+        font-size: 20px;
+        margin-left: 50px;
+        line-height: 32px;
+    }
+    .request-title {
+        margin-bottom: 13px;
+    }
+    .wrok-box .row {
+        margin-bottom: 33px;
+    }
+    .generic-box-img {
+        margin-bottom: 34px;
+    }
+    .footer-heading div h2 {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .footer-heading div p {
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    .footer-heading button {
+        font-size: 16px;
+        border-radius: 4px;
+        padding: 8px 30px 10px;
+    }
+    .news-letter {
+        padding-top: 18px;
+        padding-bottom: 22px;
+    }
+    .footer-job button {
+        font-size: 14px;
+        padding: 10px 34px 11px;
+    }
+    .footer-info h4 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .social-icons ul li {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .footer-job h4 {
+        font-size: 22px;
+        margin-bottom: 11px;
+    }
+    .copyright span {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .copyright a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .back-con{
+        position: relative;
     }
 }
