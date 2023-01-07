@@ -353,6 +353,30 @@
     .banner-img {
         width: 301px;
     }
+    /**/
+    .packages-box-item{
+        width: 29%;
+        margin: 0;
+    }
+    .domain-box-item {
+        width: 30%;
+        margin: 0 1.8%;
+    }
+    .packages-title h2 {
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+    .packages-title p {
+        margin-bottom: 70px;
+    }
+    .packages-con{
+        padding-bottom: 100px;
+    }
+    .srevices-title h2 {
+        font-size: 42px;
+        margin-bottom: 75px;
+    }
+    /**/
 }
 @media (max-width: 991px) {
     .bottom-sec-inner h5 span {
@@ -622,6 +646,57 @@
         left: -9px;
         bottom: -9px;
     }
+    /**/
+    .packages-title p br , .sub-banner-text p br{
+        display: none;
+    }
+    .sub-banner-text h1 {
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
+    .packages-box-item {
+        width: 32%;
+        padding: 45px 20px 45px;
+    }
+    .packages-title p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .packages-title h2 {
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+    .developers-con {
+        padding-top: 55px;
+        padding-bottom: 80px;
+    }
+    .domain-title h2 {
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+    .domain-box-item {
+        width: 31%;
+        margin: 0 1%;
+    }
+    .srevices-title h2 {
+        font-size: 38px;
+        margin-bottom: 55px;
+    }
+    .about-service-boxes div:nth-child(2) {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-top: 80px;
+    }
+    .about-service-item {
+        width: 32%;
+        border-radius: 25px;
+        padding: 40px 20px 52px 20px;
+    }
+    .about-service-item p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    /**/
 }
 @media (max-width: 767px){
     .bottom-sec-inner h5::after {
