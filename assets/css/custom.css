@@ -84,7 +84,8 @@ body{
     position: relative;
     transition: all 0.6s ease-in-out;
 }
-.hire-btn a:hover{
+.hire-btn a:hover,
+.submit-button button:hover{
     color: #C84CFF;
     background: none;
     transform: translateY(-8px);
@@ -1281,4 +1282,84 @@ body{
 }
 .services-item span{
     font-size: 16px;
+}
+.contact-lft-img {
+    width: 47.7%;
+    float: left;
+}
+.contact-title {
+    width: 52.3%;
+    float: left;
+    padding-left: 12.33%;
+}
+.contact-title h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    letter-spacing: 0.04em;
+}
+.contact-title span{
+    margin-bottom: 22px;
+    letter-spacing: 0.04em;
+}
+.input-feild input,
+.input-feild textarea{
+    width: 100%;
+}
+.input-feild input {
+    border: 0;
+    padding: 17px 15px 17px;
+    margin-bottom: 22px;
+    background: #1C1C1C;
+    font-size: 16px;
+    line-height: 20px;
+    color: #636363;
+    border-radius: 7.99073px;
+    transition: all 0.6s ease-in-out;
+}
+.input-feild input:focus,
+.input-feild textarea:focus{
+    outline: 1px solid #C84CFF;
+}
+.input-feild textarea{
+    border: 0;
+    padding: 38px 15px;
+    height: 198.5px;
+    background: #1C1C1C;
+    resize: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #636363;
+    margin-bottom: 8px;
+    border-radius: 9.98841px;
+    transition: all 0.6s ease-in-out;
+}
+.input-feild input::placeholder,
+.input-feild textarea{
+    font-size: 16px;
+    color: #636363;
+}
+.contact-con{
+    padding: 93px 0 150px;  
+}
+.submit-button button{
+    width: 100%;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    line-height: 15px;
+    background: #C84CFF;
+    cursor: pointer;
+    border-radius: 7.99073px;
+    padding: 23px 13px 20px;
+    transition: all 0.6s ease-in-out;
+}
+.header-outer-box::after {
+    top: 0;
+    right: 0;
+    width: 46.2%;
+    content: "";
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    background: #111111;
 }
