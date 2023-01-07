@@ -831,7 +831,11 @@ body{
 }
 .service-banner{
     background-image: url(../images/service-banner.png);
-    border-radius: 17.3744px;
+}
+.design-banner{
+    background-image: url(../images/design-banner.png);
+}
+.marketing-banner{
 }
 .sub-banner-text {
     width: 59.4%;
@@ -851,7 +855,21 @@ body{
     width: 272px;
     height: 363px;
     position: absolute;
+}
+.service-banner .sub-inner-banner::after{
     background: url(../images/service-devloper-img.png) no-repeat center;
+}
+.marketing-banner .sub-inner-banner::after{
+    background: url(../images/marketing-img.png) no-repeat center;
+}
+.design-banner .sub-inner-banner::after{
+    background: url(../images/design-img.png) no-repeat center;
+}
+.marketing-banner{
+    background: url(../images/marketing-banner.png) no-repeat center;
+}
+.finance-banner .sub-inner-banner::after{
+    background: url(../images/finance-man-img.png) no-repeat center;
 }
 .packages-con{
     padding-bottom: 128px;
@@ -1370,4 +1388,10 @@ body{
     height: 100%;
     position: absolute;
     background: #111111;
+}
+.marketing-domain-box .domain-box-item{
+    margin-bottom: 100px;
+}
+.marketing-domain-box .domain-box-item h5{
+    line-height: 34px;
 }
