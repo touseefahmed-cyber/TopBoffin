@@ -35,6 +35,12 @@
         padding-top: 33px;
         padding-bottom: 32px;
     }
+    .contact-title {
+        padding-left: 11.33%;
+    }
+    .input-feild textarea {
+        height: 180px;
+    }
 }
 @media (max-width: 1400px){
     .wrapper{
@@ -149,6 +155,16 @@
         padding-top: 28px;
         padding-bottom: 28px;
     }
+    .contact-lft-img img{
+        width: 100%;
+    }
+    .contact-title h3 {
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+    .contact-con {
+        padding: 80px 0 120px;
+    }
     
 }
 @media (max-width: 1199px){
@@ -156,6 +172,7 @@
         padding-left: 4%;
         padding-right: 4%;
     }
+    
     .header-con {
         padding-top: 32px;
     }
@@ -361,6 +378,33 @@
     }
     .bottom-sec-inner h5::after {
         width: 284px;
+    }
+    .contact-title h3 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .contact-title span {
+        margin-bottom: 18px;
+    }
+    .contact-con {
+        padding: 60px 0 90px;
+    }
+    .input-feild textarea {
+        height: 160px;
+        padding: 18px 15px;
+    }
+    .input-feild input {
+        margin-bottom: 12px;
+    }
+    .header-con .navbar-brand img{
+        width: 350px;
+    }
+    .contact-title {
+        padding-left: 9%;
+    }
+    .submit-button button {
+        padding: 18px 13px 16px;
     }
 }
 @media (max-width: 991px) {
@@ -650,6 +694,22 @@
     .copyright a {
         font-size: 14px;
     }
+    .input-feild input {
+        padding: 12px 15px 12px;
+    }
+    .input-feild textarea {
+        height: 150px;
+    }
+    .contact-title h3 {
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+    .submit-button button {
+        padding: 15px 13px 14px;
+    }
+    .contact-con {
+        padding: 40px 0 70px;
+    }
 
 }
 @media (max-width: 767px){
@@ -865,6 +925,42 @@
     }
     .footer-job {
         padding-top: 4px;
+    }
+    .contact-lft-img {
+        width: 100%;
+    }
+    .contact-lft-img img {
+        width: 350px;
+    }
+    .header-outer-box::after{
+        display: none;
+    }
+    .contact-lft-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contact-title {
+        width: 100%;
+        padding-left: 0;
+    }
+    .input-feild textarea {
+        height: 100px;
+        border-radius: 6px;
+    }
+    .input-feild input::placeholder,
+    .input-feild textarea{
+        font-size: 14px;
+    }
+    .input-feild input {
+        padding: 10px 15px 10px;
+        border-radius: 6px;
+    }
+    .submit-button button {
+        padding: 12px 13px 12px;
+        border-radius: 6px;
+    }
+    .contact-con {
+        padding: 30px 0 50px;
     }
     
 }
@@ -1197,5 +1293,15 @@
     }
     .back-con{
         position: relative;
+    }
+    .contact-lft-img img {
+        width: 100%;
+    }
+    .contact-title h3 {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .contact-con {
+        padding: 25px 0 40px;
     }
 }
