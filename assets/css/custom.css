@@ -487,7 +487,10 @@ body{
     transition: all 0.3s ease-in-out;width: 38.18px;
 }
 
-.request-title figure:hover img{
+.request-title figure:hover img,
+.packages-box-item:hover img,
+.domain-box-item:hover img,
+.about-service-item:hover img{
     transform: translatey(6px);
 }
 .request-title h3{
@@ -1032,6 +1035,11 @@ body{
     line-height: 20px;
     margin-bottom: 15px;
     letter-spacing: 0.115em;
+}
+.packages-box-item img,
+.domain-box-item img,
+.about-service-item img{
+    transition: all 0.3s ease-in-out;
 }
 .footer-info a:hover{
     color: #000000;
