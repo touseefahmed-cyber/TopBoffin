@@ -1018,11 +1018,8 @@ body{
     right: 0;
     width: 46.2%;
     content: "";
+    z-index: -1;
     height: 100%;
     position: absolute;
     background: #111111;
-}
-.contact-con, .header-con{
-    z-index: 1;
-    position: relative;
 }
