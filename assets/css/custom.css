@@ -121,8 +121,8 @@ body{
 .banner-img figure:first-child img{
     left: -104px;
     top: -65px;
-    /* animation: mover1 1s infinite alternate;
-    -webkit-animation: mover1 1s infinite alternate; */
+    animation: mover1 1s infinite alternate;
+    -webkit-animation: mover1 1s infinite alternate;
 }
 @keyframes mover1 {
     0% { transform: translateY(0); }
@@ -131,8 +131,8 @@ body{
 .banner-img figure:nth-child(2) img {
     left: 5px;
     top: -152px;
-    /* animation: mover2 1.5s infinite alternate;
-    -webkit-animation: mover2 1.5s infinite alternate; */
+    animation: mover2 1.5s infinite alternate;
+    -webkit-animation: mover2 1.5s infinite alternate;
 }
 @keyframes mover2 {
     0% { transform: translateY(0); }
@@ -141,8 +141,8 @@ body{
 .banner-img figure:nth-child(3) img {
     top: -14px;
     right: 103px;
-    /* animation: mover3 2s infinite alternate;
-    -webkit-animation: mover3 2s infinite alternate; */
+    animation: mover3 2s infinite alternate;
+    -webkit-animation: mover3 2s infinite alternate;
 }
 @keyframes mover3 {
     0% { transform: translateY(0); }
@@ -151,8 +151,8 @@ body{
 .banner-img figure:nth-child(4) img {
     left: 5px;
     top: 89px;
-    /* animation: mover4 2.5s infinite alternate;
-    -webkit-animation: mover4 2.5s infinite alternate; */
+    animation: mover4 2.5s infinite alternate;
+    -webkit-animation: mover4 2.5s infinite alternate;
 }
 @keyframes mover4 {
     0% { transform: translateY(0); }
@@ -161,8 +161,8 @@ body{
 .banner-img figure:nth-child(5) img{
     left: -106px;
     top: 268px;
-    /* animation: mover5 3s infinite alternate;
-    -webkit-animation: mover5 3s infinite alternate; */
+    animation: mover5 3s infinite alternate;
+    -webkit-animation: mover5 3s infinite alternate;
 }
 @keyframes mover5 {
     0% { transform: translateY(0); }
@@ -171,8 +171,8 @@ body{
 .banner-img figure:last-child img{
     left: 118px;
     top: 249px;
-    /* animation: mover6 3.5s infinite alternate;
-    -webkit-animation: mover6 3.5s infinite alternate; */
+    animation: mover6 3.2s infinite alternate;
+    -webkit-animation: mover6 3.2s infinite alternate;
 }
 @keyframes mover6 {
     0% { transform: translateY(0); }
@@ -545,7 +545,7 @@ body{
     background: url(../images/border-line1.png) no-repeat top center;
 }
 .wrok-box .row:nth-child(2):after {
-    top: 350px;
+    top: 305px;
     width: 637px;
     height: 338px;
     background: url(../images/border-line2.png) no-repeat top center;
@@ -565,6 +565,7 @@ body{
 .footer-heading button{
     font-size: 30px;
     border-radius: 11px;
+    border: none;
     cursor: pointer;
     padding: 13px 39px 14px;
     background-color: #000000;
@@ -587,13 +588,13 @@ body{
     margin-bottom: 13px;
 }
 .footer-info a{
-    display: block;
-    color: #000000;
+    color: #000;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 15px;
-    letter-spacing: 0.115em;
     position: relative;
+    margin-bottom: 11px;
+    display: inline-block;
+    letter-spacing: 0.115em;
 }
 .footer-info a:hover{
     color: #000;
@@ -639,7 +640,7 @@ body{
     transition: all 0.3s ease-in-out;
 }
 .footer-info a:hover::before{
-    width: 70%;
+    width: 100%;
 }
 .social-icons{
     margin-bottom: 6px;
