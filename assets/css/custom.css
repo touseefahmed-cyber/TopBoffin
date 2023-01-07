@@ -1371,3 +1371,11 @@ body{
     position: absolute;
     background: #111111;
 }
+.service-para h2{
+    margin-bottom: 15px;
+}
+.service-para p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 88px;
+}
