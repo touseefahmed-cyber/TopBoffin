@@ -563,9 +563,6 @@ body{
     margin-bottom: 14px;
     letter-spacing: 0.09em;
  }
-.footer-heading div p{
-    color: #FCFCFC;
-}
 .footer-heading button{
     font-size: 30px;
     border-radius: 11px;
@@ -865,6 +862,12 @@ body{
 .design-banner .sub-inner-banner::after{
     background: url(../images/design-img.png) no-repeat center;
 }
+.sales-banner .sub-inner-banner::after{
+    background: url(../images/sales-talent-img.png) no-repeat center;
+}
+.hire-bg .sub-inner-banner::after{
+    background: url(../images/lega-human-img.png) no-repeat center;
+}
 .marketing-banner{
     background: url(../images/marketing-banner.png) no-repeat center;
 }
@@ -952,7 +955,6 @@ body{
 }
 .special-text span{
     font-size: 16px;
-    color: #2B63B5;
     line-height: 16px;
 }
 .domain-con{
@@ -1027,7 +1029,6 @@ body{
     letter-spacing: 0.09em;
 }
 .footer-heading div p{
-    opacity: 0.34;
     font-size: 22px;
 }
 .footer-heading button{
@@ -1045,14 +1046,6 @@ body{
     font-size: 54px;
     line-height: 71px;
     margin-bottom: 13px;
-}
-.footer-info a{
-    display: block;
-    color: #000000;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 15px;
-    letter-spacing: 0.115em;
 }
 .packages-box-item img,
 .domain-box-item img,
@@ -1510,4 +1503,26 @@ body{
 .about-banner-con{
     padding-top: 177px;
     padding-bottom: 164px;
+}
+.slider-left ul{
+    width: 180px;
+    -webkit-animation: translateinfinite 25s linear infinite;
+    animation: translateinfinite 25s linear infinite;
+}
+@keyframes translateinfinite {
+	100% { transform:translateX(calc(-180px * 12));  }
+}
+.slider-img ul{
+    display: flex;
+    width: calc(180px * 24);
+}
+
+.slider-img{
+    overflow: hidden;
+}
+.slider-img ul li {
+    padding: 0 15px;
+}
+.slider-img{
+    margin-bottom: 25px;
 }
