@@ -1403,3 +1403,19 @@ body{
 .marketing-domain-box .domain-box-item h5{
     line-height: 34px;
 }
+.about-sol{
+    margin-bottom: 191px;
+}
+.about-ser{
+    margin-bottom: 107px;
+}
+.about-ser h2{
+    margin-bottom: 16px;
+}
+.about-ser p{
+    font-size: 20px;
+    line-height: 23px;
+}
+.about-pakages .packages-box-item{
+    margin: 0 7.5px;
+}
