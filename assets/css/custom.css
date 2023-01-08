@@ -1419,3 +1419,95 @@ body{
 .about-pakages .packages-box-item{
     margin: 0 7.5px;
 }
+.graphic-inner-con span{
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.08em;
+}
+.graphic-inner-con small{
+    font-size: 32px;
+}
+.graphic-con{
+    padding-top: 107px;
+    padding-bottom: 200px;
+}
+.graphic-con figure{
+    margin-bottom:65px;
+}
+.graphic-inner-con span:nth-child(2){
+    margin-bottom: 38px;
+}
+.gurantee-item figure{
+    margin-bottom: 67px;
+}
+.gurantee-item h3 {
+    line-height: 34px;
+    margin-bottom: 15px;
+    letter-spacing: 0.09em;
+}
+.gurantee-item p{
+    font-size: 16.5086px;
+    line-height: 26px;
+}
+.gurantee-con{
+    padding-bottom: 180px;
+}
+.gurantee-title h2{
+    margin-bottom: 12px;
+    letter-spacing: 0.08em;
+}
+.gurantee-title{
+    margin-bottom: 130px;
+}
+.help-con {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #C84CFF;
+}
+.help-inner-con h2{
+    line-height: 173px;
+    font-size: 130.495px;
+    margin-bottom: 25px;
+}
+.help-inner-con span{
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.contact-btn a{
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    background: #000;
+    border-radius: 11px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 41px 13px;
+}
+.about-banner-title h1 {
+    font-size: 153.72px;
+    line-height: 153px;
+    letter-spacing: normal;
+    padding-left: 85px;
+    margin-bottom: 44px;
+}
+.about-banner-title h1 span:nth-child(3) {
+    font-size: 83.8575px;
+    line-height: 80px;
+    position: absolute;
+    display: block;
+    left: -159px;
+    top: 161px;
+    transform: rotate(-90deg);
+}
+.about-banner-title .out-source-title{
+    font-size: 214.045px;
+    line-height: 251px;
+}
+.about-banner-title p{
+    line-height: 23px;
+}
+.about-banner-con{
+    padding-top: 177px;
+    padding-bottom: 164px;
+}
