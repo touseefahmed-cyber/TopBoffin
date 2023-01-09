@@ -3,6 +3,13 @@
         padding-top: 90px;
         padding-bottom: 100px;
     }
+    .service-page {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .service-page-title {
+        margin-bottom: 70px;
+    }
     .packages-title p {
         margin-bottom: 100px;
     }
@@ -98,7 +105,14 @@
     }
 }
 @media (max-width: 1400px){
-        .banner-img figure img {
+    .service-page {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .service-page-title {
+        margin-bottom: 50px;
+    }
+    .banner-img figure img {
         width: 60px;
     }
     .banner-img figure:first-child img {
@@ -403,6 +417,13 @@
     }
 }
 @media (max-width: 1199px){
+    .service-page {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .service-page-title {
+        margin-bottom: 40px;
+    }
     .wrapper2 {
         padding-left: 4%;
         padding-right: 4%;
@@ -1043,6 +1064,13 @@
 
 }
 @media (max-width: 991px) {
+    .service-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service-page-title {
+        margin-bottom: 30px;
+    }
         .services-item {
             text-align: center;
         }
@@ -1742,6 +1770,10 @@
 
     }
 @media (max-width: 767px) {
+    .service-page {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
         .bottom-sec-inner h5::after {
             bottom: 11px;
             left: 121px;
@@ -2223,8 +2255,11 @@
     .graphic-con {
         padding-top: 20px;
     }
-    }
+}
 @media (max-width: 575px) {
+    .service-page-title {
+        margin-bottom: 30px;
+    }
     .services-item ul li:first-child .back-con{
         background: url(../images/services-bg1.png) no-repeat center;
         background-size:cover;
