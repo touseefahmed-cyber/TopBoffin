@@ -572,7 +572,8 @@ body{
     background-color: #000000;
     transition: all 0.6s ease-in-out;
 }
-.footer-heading button:hover{
+.footer-heading button:hover,
+.contact-btn a:hover{
     background: none;
     color: #000 !important;
     transform: translateY(-8px);
@@ -1481,6 +1482,7 @@ body{
     display: inline-block;
     text-decoration: none;
     padding: 12px 41px 13px;
+    transition: all 0.6s ease-in-out;
 }
 .about-banner-title h1 {
     font-size: 153.72px;

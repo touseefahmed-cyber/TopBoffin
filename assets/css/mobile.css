@@ -1,15 +1,25 @@
 @media (max-width: 1600px){
+    .about-banner-title h1 span:nth-child(3) {
+        left: -130px;
+        font-size: 74px;
+        line-height: 74px;
+    }
     .about-banner-con {
         padding-top: 120px;
         padding-bottom: 120px;
     }
     .about-banner-title h1 {
-        font-size: 146px;
-        line-height: 146px;
+        font-size: 140px;
+        line-height: 140px;
+        margin-bottom: 40px;
     }
     .developers-con {
         padding-top: 90px;
         padding-bottom: 100px;
+    }
+    .about-banner-title .out-source-title {
+        font-size: 196px;
+        line-height: 242px;
     }
     .about-service-boxes div:nth-child(2) {
         margin-top: 50px;
@@ -97,8 +107,8 @@
     }
     /**/
     .about-banner-con {
-        padding-top: 140px;
-        padding-bottom: 130px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .about-ser {
         margin-bottom: 90px;
@@ -123,6 +133,22 @@
     .graphic-inner-con span {
         font-size: 30px;
     }
+    .help-con {
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+    .help-inner-con h2 {
+        font-size: 118px;
+        line-height: 144px;
+    }
+    .help-inner-con span {
+        margin-bottom: 46px;
+    }
+    .help-con::after {
+        height: 820px;
+        background-size: contain;
+    }
+    
 }
 @media (max-width: 1400px){
     .slider-con {
@@ -197,7 +223,7 @@
         margin-bottom: 34px;
     }
     .packages-con {
-        padding-bottom: 90px;
+        padding-bottom: 80px;
     }
     .domain-box-item {
         width: 29.6%;
@@ -394,15 +420,15 @@
         text-align: center;
     }
     .about-banner-con {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     .packages-title p {
         margin-bottom: 50px;
     }
     .about-pakages .packages-box-item {
         width: 32%;
-        padding: 70px 33px 28px;
+        padding: 50px 33px 28px;
     }
     .graphic-con {
         padding-top: 30px;
@@ -416,27 +442,40 @@
         margin-bottom: 30px;
     }
     .gurantee-title {
-        margin-bottom: 90px;
+        margin-bottom: 80px;
     }
     .gurantee-con {
-        padding-bottom: 100px;
+        padding-bottom: 80px;
     }
     .help-inner-con h2 {
-        line-height: 140px;
-        font-size: 110px;
+        font-size: 80px;
+        line-height: 100px;
         margin-bottom: 15px;
     }
     .help-con {
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .help-inner-con span {
         margin-bottom: 35px;
     }
     .contact-btn a {
-        font-size: 28px;
-        line-height: 40px;
-        padding: 10px 35px 12px;
+        font-size: 26px;
+        line-height: 38px;
+        padding: 8px 35px 10px;
+    }
+    .about-ser {
+        margin-bottom: 80px;
+    }
+    .graphic-con {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    .gurantee-item figure {
+        margin-bottom: 40px;
+    }
+    .help-con::after {
+        height: 570px;
     }
 }
 @media (max-width: 1199px){
@@ -868,7 +907,7 @@
 
     .srevices-title h2 {
         font-size: 36px;
-        margin-bottom: 46px;
+        margin-bottom: 28px;
     }
 
     .about-service-item {
@@ -945,20 +984,21 @@
     }
 
     .about-banner-title .out-source-title {
-        font-size: 133.045px;
-        line-height: 145px;
+        font-size: 130px;
+        line-height: 140px;
     }
 
     .about-banner-title h1 {
-        font-size: 95.72px;
+        font-size: 95px;
         line-height: 100px;
+        margin-bottom: 30px;
     }
 
     .about-banner-title h1 span:nth-child(3) {
-        font-size: 55px;
-        line-height: 55px;
-        left: 18px;
-        top: 105px;
+        top: 98px;
+        left: 40px;
+        font-size: 46px;
+        line-height: 50px;
     }
 
     .about-banner-title p br {
@@ -968,9 +1008,11 @@
     .about-banner-title p {
         line-height: 25px;
     }
-
+    .about-pakages .packages-box-item figure {
+        margin-bottom: 34px;
+    }
     .about-ser {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     .about-service-item h4 {
@@ -1093,20 +1135,29 @@
         padding-bottom: 100px;
     }
     .help-inner-con h2 {
-        line-height: 100px;
-        font-size: 85px;
+        font-size: 70px;
+        line-height: 78px;
     }
     .help-con {
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     .contact-btn a {
         font-size: 24px;
         line-height: 30px;
     }
+    .help-inner-con span {
+        margin-bottom: 24px;
+    }
+    .help-con::after {
+        height: 492px;
+    }
 
 }
 @media (max-width: 991px) {
+    .about-banner-title h1{
+        display: inline-block;
+    }
     .slider-con {
         margin-bottom: 30px;
     }
@@ -1745,24 +1796,24 @@
         .about-banner-title h1 {
             font-size: 65.72px;
             line-height: 70px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            padding-left: 0;
         }
 
         .about-banner-title .out-source-title {
             font-size: 93px;
             line-height: 120px;
         }
-
         .about-banner-title h1 span:nth-child(3) {
             font-size: 40px;
             line-height: 42px;
-            left: 20px;
+            left: -116px;
             top: 74px;
         }
 
         .about-banner-con {
-            padding-top: 45px;
-            padding-bottom: 55px;
+            padding-top: 40px;
+            padding-bottom: 40px;
         }
 
         .about-banner-title p {
@@ -1796,7 +1847,7 @@
     .contact-btn a {
         font-size: 22px;
         line-height: 25px;
-        padding: 9px 28px 10px;
+        padding: 11px 37px 13px;
     }
     .about-pakages .packages-box-item figure {
         margin-bottom: 20px;
@@ -1809,6 +1860,13 @@
     .graphic-inner-con span {
         font-size: 20px;
         line-height: 27px;
+    }
+    .help-con::after {
+        height: 447px;
+    }
+    .help-inner-con span {
+        margin-bottom: 18px;
+        font-size: 22px;
     }
 
 
@@ -2258,25 +2316,27 @@
         .banner-text p {
             line-height: 26px;
         }
-    .about-banner-title h1 {
-        font-size: 40.72px;
-        line-height: 42px;
-        margin-bottom: 20px;
-        padding-left: 20px;
-    }
-    .about-banner-title .out-source-title {
-        font-size: 57px;
-        line-height: 80px;
-    }
-    .about-banner-title h1 span:nth-child(3) {
-        font-size: 26px;
-        line-height: 28px;
-        left: 60px;
-        top: 44px;
-    }
+        .about-banner-title h1 {
+            font-size: 50px;
+            line-height: 50px;
+            margin-bottom: 16px;
+        }
+        .about-banner-title .out-source-title {
+            font-size: 72px;
+            line-height: 77px;
+        }
+        .about-banner-title h1 span:nth-child(3) {
+            font-size: 26px;
+            line-height: 28px;
+            left: -82px;
+            top: 48px;
+        }
+        .gurantee-title {
+            margin-bottom: 30px;
+        }
     .about-banner-title p {
-        line-height: 20px;
         font-size: 16px;
+        line-height: 24px;
     }
     .about-banner-con {
         padding-top: 40px;
@@ -2318,6 +2378,24 @@
     .service-small-banner::after {
         background: url(../images/service-devloper-img.png) no-repeat center;
         background-size: contain;
+    }
+    .gurantee-item figure {
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    .gurantee-item p {
+        line-height: 28px;
+    }
+    .help-inner-con h2 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .help-con {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .help-con::after {
+        height: 355px;
     }
 }
 @media (max-width: 575px) {
@@ -2671,7 +2749,7 @@
             line-height: 35px;
         }
         .srevices-title{
-            margin-bottom: 62px;
+            margin-bottom: 52px;
         }
 
         .sol-box-img figure img {
@@ -2853,20 +2931,20 @@
         .contact-con {
             padding: 25px 0 40px;
         }
-    .about-banner-title h1 {
-        font-size: 40px;
-        line-height: 39px;
-        margin-bottom: 20px;
-        padding-left: 16px;
-    }
-    .about-banner-title .out-source-title {
-        font-size: 56px;
-        line-height: 70px;
-    }
+        .about-banner-title h1 {
+            font-size: 42px;
+            line-height: 39px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .about-banner-title .out-source-title {
+            font-size: 60px;
+            line-height: 68px;
+        }
     .about-banner-title h1 span:nth-child(3) {
         font-size: 22px;
         line-height: 28px;
-        left: -19px;
+        left: -46px;
         top: 38px;
     }
     .about-pakages .abou-pkg-1{
@@ -2885,20 +2963,25 @@
         margin-bottom: 15px;
     }
     .graphic-con {
-        padding-bottom: 60px;
+        padding-bottom: 100px;
+    }
+    .gurantee-item figure img {
+        width: 55px;
     }
     .help-inner-con h2 {
-        line-height: 70px;
-        font-size: 50px;
         padding: 0 20px;
+        font-size: 52px;
+        line-height: 70px;
     }
     .help-inner-con span {
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 18px;
         margin-bottom: 45px;
     }
     .contact-btn a {
-        padding: 9px 27px 10px;
+        font-size: 21px;
+        padding: 10px 29px 10px;
+        border-radius: 7.75025px;
     }
     .sub-small-banner::after {
         width: 117.64px;
@@ -2994,5 +3077,38 @@
     }
     .solution--boxes {
         margin-bottom: 50px;
+    }
+    .header-con {
+        padding-bottom: 0;
+    }
+    .about-banner-con {
+        padding-bottom: 110px;
+    }
+    .graphic-inner-con span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .graphic-inner-con small {
+        font-size: 22px;
+    }
+    .gurantee-item h3 br{
+        display: none;
+    }
+    .gurantee-item h3 {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .gurantee-item figure {
+        margin-bottom: 16px;
+    }
+    .gurantee-item {
+        margin-bottom: 59px;
+    }
+    .gurantee-con {
+        padding-bottom: 63px;
+    }
+    .help-con {
+        padding-top: 102px;
+        padding-bottom: 85px;
     }
 }
