@@ -69,6 +69,9 @@ h4{
 .color-000000{
     color: #000000;
 }
+.color-C4C4C4{
+    color: #C4C4C4;
+}
 .color-C84CFF{
     color: #C84CFF;
 }
@@ -139,7 +142,7 @@ h4{
     border: 1px solid #3FCDB8;
 }
 .border-C84CFF{
-    border: 1px solid #C84CFF
+    border: 2px solid #C84CFF
 }
 .border1{
     border: 1px solid #25694D;

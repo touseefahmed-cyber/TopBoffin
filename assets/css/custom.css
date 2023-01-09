@@ -329,7 +329,7 @@ body{
     background: url(../images/services-bg2.png) no-repeat center;
 }
 .services-item ul li:nth-child(3) .front-con {
-    background: url(../images/services-bg2.png) no-repeat center;
+    background: url(../images/services-img3-2.png) no-repeat center;
 }
 .services-item ul li:nth-child(4) .front-con {
     background: url(../images/services-bg4.png) no-repeat center;
@@ -1096,17 +1096,6 @@ body{
     border: 2px solid #000000;
     border-radius: 100%;
 }
-.banner-text h1:after{
-    z-index: -1;
-    content: "";
-    right: -22px;
-    bottom: -14px;
-    width: 243.61px;
-    height: 67.77px;
-    position: absolute;
-    background: #C84CFF;
-    border-radius: 33.8826px;
-}
 .social-icons ul li a:hover{
     text-decoration: none;
 }
@@ -1525,4 +1514,30 @@ body{
 }
 .slider-img{
     margin-bottom: 25px;
+}
+/**/
+.about-pakages .packages-box-item p{
+    font-size: 16.5086px;
+    line-height: 26px;
+}
+.about-pakages .packages-box-item h4{
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 15.5px;
+}
+.about-pakages .packages-box-item figure{
+    margin-bottom: 57px;
+}
+.about-pakages .packages-box-item {
+    width: 27%;
+    padding: 90px 33px 28px;
+}
+.gurantee-item figure{
+    min-height: 138px;
+}
+.about-pakages .abou-pkg-1{
+    border-radius: 60px 15.6707px 15.6707px 60px;
+}
+.about-pakages .abou-pkg-3{
+    border-radius: 15.6px 60px 60px 15.6707px;
 }
