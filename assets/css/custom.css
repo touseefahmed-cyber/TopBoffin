@@ -1449,6 +1449,19 @@ body{
     padding-bottom: 208px;
     background: #C84CFF;
 }
+.help-con::after{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 960.96px;
+    content: "";
+    background: url(../images/circle-img.png) no-repeat center;
+    position: absolute;
+}
+.help-inner-con{
+    z-index: 1;
+    position: relative;
+}
 .help-inner-con h2{
     line-height: 173px;
     font-size: 130.495px;
