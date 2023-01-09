@@ -128,7 +128,7 @@
         font-size: 18px;
         line-height: 30px;
     }
-    .banner-text h1:after {
+    .banner-text h1 span:after {
         width: 184px;
         height: 54px;
     }
@@ -421,7 +421,7 @@
         margin-bottom: 30px;
     }
 
-    .banner-text h1:after {
+    .banner-text h1 span:after {
         right: -3px;
         bottom: -6px;
         width: 135px;
@@ -1202,7 +1202,7 @@
             margin-bottom: 24px;
         }
 
-        .banner-text h1:after {
+        .banner-text h1 span:after {
             right: -10px;
             bottom: -3px;
             width: 175px;
@@ -1959,7 +1959,7 @@
             right: 0;
         }
 
-        .banner-text h1:after {
+        .banner-text h1 span:after {
             width: 130px;
             height: 31px;
         }
@@ -2344,7 +2344,7 @@
             line-height: 32px;
         }
 
-        .banner-text h1:after {
+        .banner-text h1 span:after {
             right: -2px;
             bottom: -2px;
             width: 134.91px;

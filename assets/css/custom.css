@@ -665,7 +665,7 @@ body{
 .social-icons ul li a:hover{
     transform: translateY(-8px);
 }
-.banner-text h1:after{
+.banner-text h1 span:after{
     z-index: -1;
     content: "";
     right: -22px;
@@ -1540,4 +1540,7 @@ body{
 }
 .about-pakages .abou-pkg-3{
     border-radius: 15.6px 60px 60px 15.6707px;
+}
+.services-item ul li{
+    text-decoration: none;
 }
