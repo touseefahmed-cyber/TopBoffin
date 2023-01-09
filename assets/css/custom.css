@@ -689,6 +689,9 @@ body{
     color: #000000;
     font-size: 18px;
 }
+.services-item ul li a{
+    text-decoration: none;
+}
 .footer-bottom-sec{
     padding-top: 37px;
     padding-bottom: 37px
@@ -1540,7 +1543,4 @@ body{
 }
 .about-pakages .abou-pkg-3{
     border-radius: 15.6px 60px 60px 15.6707px;
-}
-.services-item ul li{
-    text-decoration: none;
 }
