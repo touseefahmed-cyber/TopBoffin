@@ -105,6 +105,9 @@
     }
 }
 @media (max-width: 1400px){
+    .slider-con {
+        margin-bottom: 50px;
+    }
     .service-page {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -417,9 +420,29 @@
     }
 }
 @media (max-width: 1199px){
+    .service-banner .sub-inner-banner::after{
+        background-size: contain;
+    }
+    .slider-img {
+        margin-bottom: 16px;
+    }
+    .sub-inner-banner::after {
+        width: 220px;
+        height: 300px;
+    }
+    .slider-con {
+        margin-bottom: 40px;
+    }
+    .sub-banner {
+        height: 320px;
+        border-radius: 18px;
+    }
     .service-page {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    .srevices-title h2 {
+        margin-bottom: 50px;
     }
     .service-page-title {
         margin-bottom: 40px;
@@ -771,7 +794,7 @@
         margin-bottom: 42px;
     }
 
-    domain-box-item p {
+    .domain-box-item p {
         font-size: 18px;
         line-height: 26px;
     }
@@ -1064,6 +1087,9 @@
 
 }
 @media (max-width: 991px) {
+    .slider-con {
+        margin-bottom: 30px;
+    }
     .service-page {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -1481,14 +1507,12 @@
         }
 
         .sub-inner-banner::after {
-            width: 200px;
-            height: 267px;
-            background-size: contain;
-            left: 15px;
+            width: 176px;
+            height: 234px;
         }
 
         .sub-banner {
-            height: 300px;
+            height: 270px;
         }
 
         .sub-banner-text {
@@ -1634,7 +1658,7 @@
         }
 
         .sol-box-img figure img {
-            width: 120px;
+            width: 110px;
         }
 
         .sol-box-img:after {
@@ -2241,9 +2265,6 @@
     .about-ser p {
         font-size: 16px;
     }
-    .packages-box-item figure img {
-        width: 90px;
-    }
     .about-pakages .packages-box-item h4 {
         font-size: 22px;
         line-height: 25px;
@@ -2254,6 +2275,29 @@
     }
     .graphic-con {
         padding-top: 20px;
+    }
+    .service-small-banner{
+        background-image: url(../images/service-banner.png);
+    }
+    .sub-small-banner{
+        height: 200px;
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 16px;
+    }
+    .sub-small-banner::after {
+        bottom: 0;
+        left: 50%;
+        content: "";
+        width: 142px;
+        height: 192px;
+        position: absolute;
+        transform: translatex(-50%);
+    }
+    .service-small-banner::after {
+        background: url(../images/service-devloper-img.png) no-repeat center;
+        background-size: contain;
     }
 }
 @media (max-width: 575px) {
@@ -2582,12 +2626,12 @@
         }
 
         .packages-title h2, .solution-heading h2 {
-            font-size: 24px;
-            line-height: 34px;
+            font-size: 22px;
+            line-height: 30px;
         }
 
         .packages-con {
-            padding-bottom: 20px;
+            padding-bottom: 90px;
         }
 
         .sub-banner {
@@ -2595,16 +2639,19 @@
         }
 
         .developers-con {
-            padding-bottom: 30px;
+            padding-bottom: 103px;
         }
 
         .packages-title p {
-            margin-bottom: 24px;
+            margin-bottom: 52px;
         }
 
         .srevices-title h2 {
-            font-size: 24px;
+            font-size: 22px;
             line-height: 35px;
+        }
+        .srevices-title{
+            margin-bottom: 62px;
         }
 
         .sol-box-img figure img {
@@ -2613,6 +2660,7 @@
 
         .domain-title h2 {
             font-size: 24px;
+            margin-bottom: 84px;
         }
 
         .owl-item.active.center .auther-con,
@@ -2831,5 +2879,100 @@
     }
     .contact-btn a {
         padding: 9px 27px 10px;
+    }
+    .sub-small-banner::after {
+        width: 117.64px;
+        height: 157.45px;
+    }
+    .sub-small-banner {
+        height: 166.67px;
+    }
+    .sub-small-banner-text h1 br{
+        display: none;
+    }
+    .sub-small-banner-text h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .packages-box-item figure {
+        margin-bottom: 38px;
+    }
+    .packages-box-item h4 {
+        font-size: 20px;
+        margin-bottom: 27px;
+    }
+    .packages-box-item span {
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
+    .price-con small {
+        font-size: 22px;
+    }
+    .price-con {
+        padding: 9px 8px;
+        min-width: 236px;
+        border-radius: 8px;
+    }
+    .packages-box-item {
+        padding: 37px 10px;
+    }
+    .domain-box-item {
+        padding: 32px 19px;
+    }
+    .domain-box-item figure {
+        margin-bottom: 30px;
+    }
+    .domain-box-item figure img {
+        width: 85px;
+    }
+    .domain-box-item figure {
+        margin-bottom: 27px;
+    }
+    .domain-box-item h5 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 6px;
+    }
+    .domain-box-item p {
+        line-height: 27px;
+    }
+    .special-text span {
+        line-height: 18px;
+    }
+    .domain-con {
+        padding-bottom: 38px;
+    }
+    .slider-con {
+        margin-bottom: 80px;
+    }
+    .about-service-item figure img {
+        width: 93px;
+        margin-bottom: 17px;
+    }
+    .about-service-item h4 {
+        font-size: 18px;
+        margin-bottom: 14px;
+        letter-spacing: 0.05em;
+    }
+    .about-service-item p {
+        line-height: 27px;
+    }
+    .about-service-item {
+        padding: 17px 32px 23px;
+    }
+    .packages-box-item, .domain-box-item, .about-service-item {
+        margin: 0 0 22px 0;
+    }
+    .about-services {
+        padding-bottom: 133px;
+    }
+    .solution-heading {
+        margin-bottom: 84px;
+    }
+    .sol-box-text h4 {
+        font-size: 18px;
+    }
+    .solution--boxes {
+        margin-bottom: 50px;
     }
 }
